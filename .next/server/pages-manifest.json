@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/preview": "pages/api/preview.js",
+  "/api/exit-preview": "pages/api/exit-preview.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/free/[slug]": "pages/free/[slug].js",
+  "/download/[slug]": "pages/download/[slug].js",
+  "/hd/[slug]": "pages/hd/[slug].js",
+  "/404": "pages/404.html"
+}
