@@ -12,7 +12,8 @@ import CategoryList from '../components/category-list'
 
 export default function Index({ allPosts: { edges }, menuItems,  preview, allCatagories }) {
   const heroPost = edges[0]?.node
-  const morePosts = edges.slice(1) 
+  const morePosts = edges.slice(1)  
+
   return (
     <Layout preview={preview}>
       <Head>
