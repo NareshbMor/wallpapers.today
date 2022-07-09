@@ -17,6 +17,7 @@ const Tag = ({ tag, posts: { edges }, menuItems }) => {
   return (
     <Layout preview={false}>
       <Head> 
+        <title>{name} wallpapers for Free | Download {name} wallpapers | wallpapers.today</title>
         <div			
           dangerouslySetInnerHTML={{ __html: replaceStrAll(replaceStrAll(seo.fullHead, '<!-- This site is optimized with the Yoast SEO plugin v19.0 - https://yoast.com/wordpress/plugins/seo/ -->', ''), '<!-- / Yoast SEO plugin. -->', '') }}
         />

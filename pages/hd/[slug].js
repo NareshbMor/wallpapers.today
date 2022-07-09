@@ -16,7 +16,7 @@ import Heading from '../../components/heading'
 import CoverImage from '../../components/cover-image'
 import FeaturedImage from '../../components/featured-image'
 
-export default function Post({ post, posts, preview, menuItems, history }) {
+export default function Post({ post, posts, preview, menuItems, history }) { 
   const router = useRouter()   
   const morePosts = posts?.edges
 
@@ -35,14 +35,14 @@ export default function Post({ post, posts, preview, menuItems, history }) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} | {post.title} for Free | Download {post.title}
                 </title>
                 <meta
                   property="og:image"
                   content={post.featuredImage?.sourceUrl}
                 />
               </Head>
-              <Heading title={post.title} position="center"/>
+              <Heading title={post.title.includes("wallpapers")?post.title : post.title+' Wallpapers'} position="center"/>
 
               {post.featuredImage && <FeaturedImage title={post.title} FeaturedImage={post.featuredImage} /> }
 

@@ -18,6 +18,7 @@ module.exports = {
       'secure.gravatar.com',
       'localhost:8080',
       'localhost',
+      'www.wallpapers.today',
       'wallpapers.today'
     ],
   },

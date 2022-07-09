@@ -17,7 +17,7 @@ export default function Index({ allPosts: { edges }, menuItems,  preview, allCat
   return (
     <Layout preview={preview}>
       <Head>
-        <title>Next.js Blog Example with {CMS_NAME}</title>
+        <title>Wallpapers for Free | Download wallpapers for Free | Awesome wallpapers on wallpapers.today</title>
       </Head>
       <Header menuItems={menuItems} />
       <Container>    

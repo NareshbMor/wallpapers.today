@@ -17,7 +17,7 @@ const Category = ({ category, posts: { edges }, menuItems }) => {
   return (
     <Layout preview={false}>
       <Head>
-        {/* <title>Next.js Blog Example with</title> */}
+        <title>{name} wallpapers for Free | Download {name} wallpapers | wallpapers.today</title>
         <div			
           dangerouslySetInnerHTML={{ __html: replaceStrAll(replaceStrAll(category.seo.fullHead, '<!-- This site is optimized with the Yoast SEO plugin v19.0 - https://yoast.com/wordpress/plugins/seo/ -->', ''), '<!-- / Yoast SEO plugin. -->', '') }}
         />
