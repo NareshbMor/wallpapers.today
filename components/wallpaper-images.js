@@ -11,7 +11,7 @@ export default function WallpaperImages({title, wallpapers}) {
   const wallpaperData = wallpapers ? wallpapers.map((wallpaper, key) => {    
     return (     
         <div key={`wallpaper_${key}`} className="rounded-lg shadow-lg bg-white mb-10">
-          <a href="#!">             
+          <a href={wallpaper.wallpaper.mediaItemUrl} target="_blank">             
             <Image
             title={wallpaper.wallpaper.altText}
             alt={wallpaper.wallpaper.altText}
