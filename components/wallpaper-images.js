@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/future/image'
 import { saveAs } from 'file-saver';
 export default function WallpaperImages({title, wallpapers}) { 
 
