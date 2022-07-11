@@ -153,6 +153,10 @@
   min-height: 192px;
 }
 
+.image_relative_posion span{ 
+ position: relative;
+}
+
 /* .pin_container{
   margin: 0;
   padding: 0;
