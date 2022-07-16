@@ -23,5 +23,5 @@ module.exports = {
       'wallpapers.today'
     ],
   },
- 
+  staticPageGenerationTimeout:600000
 }
