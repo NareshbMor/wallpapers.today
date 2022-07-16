@@ -209,3 +209,8 @@ Alternatively, you can deploy using our template by clicking on the Deploy butto
 
 #### start mysql
 sudo service mysql start
+sudo service nginx restart
+sudo systemctl nginx restart
+sudo systemctl php7.4-fpm start
+https://www.paveltashev.com/blog/nginx-how-to-config-domain-subdirectory-to-point-to-a-subfolder/
+https://www.coderrocketfuel.com/article/how-to-deploy-a-next-js-website-to-a-digital-ocean-server
