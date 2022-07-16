@@ -8,7 +8,6 @@ if (!process.env.WORDPRESS_API_URL) {
 module.exports = {
   experimental: {
     images: {
-      allowFutureImage: true,
       layoutRaw: true
     }
   },
